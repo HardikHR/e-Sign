@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22091C4F27BD2129004F1BA1 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22091C4E27BD2129004F1BA1 /* SignViewController.swift */; };
+		22B0420927BB67A50047F985 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B0420827BB67A50047F985 /* CloudKit.framework */; };
+		22B0420C27BB683D0047F985 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0420B27BB683D0047F985 /* ListModel.swift */; };
+		22CA3EC927BA1E8700F5CA9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA3EC827BA1E8700F5CA9C /* AppDelegate.swift */; };
+		22CA3ECB27BA1E8700F5CA9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA3ECA27BA1E8700F5CA9C /* SceneDelegate.swift */; };
+		22CA3ECD27BA1E8700F5CA9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA3ECC27BA1E8700F5CA9C /* ViewController.swift */; };
+		22CA3ED027BA1E8700F5CA9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CA3ECE27BA1E8700F5CA9C /* Main.storyboard */; };
+		22CA3ED227BA1E8900F5CA9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CA3ED127BA1E8900F5CA9C /* Assets.xcassets */; };
+		22CA3ED527BA1E8900F5CA9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CA3ED327BA1E8900F5CA9C /* LaunchScreen.storyboard */; };
+		22CA3EDF27BA258C00F5CA9C /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA3EDE27BA258C00F5CA9C /* ItemCollectionViewCell.swift */; };
+		22CA3F2C27BA849400F5CA9C /* PDFViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CA3F2B27BA849400F5CA9C /* PDFViewControllers.swift */; };
+		A8C15929311606E304CB4EC8 /* Pods_e_Sign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 617045EDFB887DF0ECC6B65B /* Pods_e_Sign.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22091C4E27BD2129004F1BA1 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		22B0420527BB65080047F985 /* e-Sign.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "e-Sign.entitlements"; sourceTree = "<group>"; };
+		22B0420827BB67A50047F985 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		22B0420B27BB683D0047F985 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		22CA3EC527BA1E8700F5CA9C /* e-Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CA3EC827BA1E8700F5CA9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22CA3ECA27BA1E8700F5CA9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22CA3ECC27BA1E8700F5CA9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22CA3ECF27BA1E8700F5CA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22CA3ED127BA1E8900F5CA9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CA3ED427BA1E8900F5CA9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22CA3ED627BA1E8900F5CA9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CA3EDE27BA258C00F5CA9C /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		22CA3F2B27BA849400F5CA9C /* PDFViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewControllers.swift; sourceTree = "<group>"; };
+		617045EDFB887DF0ECC6B65B /* Pods_e_Sign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_e_Sign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		857414E3363314EB4168312F /* Pods-e-Sign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Sign.debug.xcconfig"; path = "Target Support Files/Pods-e-Sign/Pods-e-Sign.debug.xcconfig"; sourceTree = "<group>"; };
+		96E69BCDB947F3F622A4AB18 /* Pods-e-Sign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-e-Sign.release.xcconfig"; path = "Target Support Files/Pods-e-Sign/Pods-e-Sign.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CA3EC227BA1E8700F5CA9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C15929311606E304CB4EC8 /* Pods_e_Sign.framework in Frameworks */,
+				22B0420927BB67A50047F985 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22CA3EBC27BA1E8700F5CA9C = {
+			isa = PBXGroup;
+			children = (
+				22CA3EC727BA1E8700F5CA9C /* e-Sign */,
+				22CA3EC627BA1E8700F5CA9C /* Products */,
+				746B11C977E8A5E4B51D990D /* Pods */,
+				B85209903D7D79524D3B82A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22CA3EC627BA1E8700F5CA9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CA3EC527BA1E8700F5CA9C /* e-Sign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CA3EC727BA1E8700F5CA9C /* e-Sign */ = {
+			isa = PBXGroup;
+			children = (
+				22B0420527BB65080047F985 /* e-Sign.entitlements */,
+				22CA3EC827BA1E8700F5CA9C /* AppDelegate.swift */,
+				22CA3ECA27BA1E8700F5CA9C /* SceneDelegate.swift */,
+				22CA3EE227BA2ABA00F5CA9C /* Controller */,
+				22CA3EDD27BA255500F5CA9C /* Cell */,
+				22CA3ECE27BA1E8700F5CA9C /* Main.storyboard */,
+				22CA3ED127BA1E8900F5CA9C /* Assets.xcassets */,
+				22CA3ED327BA1E8900F5CA9C /* LaunchScreen.storyboard */,
+				22CA3ED627BA1E8900F5CA9C /* Info.plist */,
+			);
+			path = "e-Sign";
+			sourceTree = "<group>";
+		};
+		22CA3EDD27BA255500F5CA9C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22CA3EDE27BA258C00F5CA9C /* ItemCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		22CA3EE227BA2ABA00F5CA9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22CA3ECC27BA1E8700F5CA9C /* ViewController.swift */,
+				22CA3F2B27BA849400F5CA9C /* PDFViewControllers.swift */,
+				22091C4E27BD2129004F1BA1 /* SignViewController.swift */,
+				22B0420B27BB683D0047F985 /* ListModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		746B11C977E8A5E4B51D990D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				857414E3363314EB4168312F /* Pods-e-Sign.debug.xcconfig */,
+				96E69BCDB947F3F622A4AB18 /* Pods-e-Sign.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B85209903D7D79524D3B82A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B0420827BB67A50047F985 /* CloudKit.framework */,
+				617045EDFB887DF0ECC6B65B /* Pods_e_Sign.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CA3EC427BA1E8700F5CA9C /* e-Sign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CA3ED927BA1E8900F5CA9C /* Build configuration list for PBXNativeTarget "e-Sign" */;
+			buildPhases = (
+				B14F44955CC118DD8F7B09AA /* [CP] Check Pods Manifest.lock */,
+				22CA3EC127BA1E8700F5CA9C /* Sources */,
+				22CA3EC227BA1E8700F5CA9C /* Frameworks */,
+				22CA3EC327BA1E8700F5CA9C /* Resources */,
+				07D923F409278D02A5164501 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-Sign";
+			productName = "e-Sign";
+			productReference = 22CA3EC527BA1E8700F5CA9C /* e-Sign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CA3EBD27BA1E8700F5CA9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					22CA3EC427BA1E8700F5CA9C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 22CA3EC027BA1E8700F5CA9C /* Build configuration list for PBXProject "e-Sign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22CA3EBC27BA1E8700F5CA9C;
+			productRefGroup = 22CA3EC627BA1E8700F5CA9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CA3EC427BA1E8700F5CA9C /* e-Sign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CA3EC327BA1E8700F5CA9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CA3ED527BA1E8900F5CA9C /* LaunchScreen.storyboard in Resources */,
+				22CA3ED227BA1E8900F5CA9C /* Assets.xcassets in Resources */,
+				22CA3ED027BA1E8700F5CA9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D923F409278D02A5164501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-e-Sign/Pods-e-Sign-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-e-Sign/Pods-e-Sign-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-e-Sign/Pods-e-Sign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B14F44955CC118DD8F7B09AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-e-Sign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CA3EC127BA1E8700F5CA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22091C4F27BD2129004F1BA1 /* SignViewController.swift in Sources */,
+				22CA3ECD27BA1E8700F5CA9C /* ViewController.swift in Sources */,
+				22CA3EDF27BA258C00F5CA9C /* ItemCollectionViewCell.swift in Sources */,
+				22CA3EC927BA1E8700F5CA9C /* AppDelegate.swift in Sources */,
+				22CA3F2C27BA849400F5CA9C /* PDFViewControllers.swift in Sources */,
+				22B0420C27BB683D0047F985 /* ListModel.swift in Sources */,
+				22CA3ECB27BA1E8700F5CA9C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22CA3ECE27BA1E8700F5CA9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CA3ECF27BA1E8700F5CA9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22CA3ED327BA1E8900F5CA9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CA3ED427BA1E8900F5CA9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CA3ED727BA1E8900F5CA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22CA3ED827BA1E8900F5CA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22CA3EDA27BA1E8900F5CA9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 857414E3363314EB4168312F /* Pods-e-Sign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "e-Sign/e-Sign.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "e-Sign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.e-Sign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22CA3EDB27BA1E8900F5CA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E69BCDB947F3F622A4AB18 /* Pods-e-Sign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "e-Sign/e-Sign.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "e-Sign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.e-Sign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CA3EC027BA1E8700F5CA9C /* Build configuration list for PBXProject "e-Sign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CA3ED727BA1E8900F5CA9C /* Debug */,
+				22CA3ED827BA1E8900F5CA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CA3ED927BA1E8900F5CA9C /* Build configuration list for PBXNativeTarget "e-Sign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CA3EDA27BA1E8900F5CA9C /* Debug */,
+				22CA3EDB27BA1E8900F5CA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22CA3EBD27BA1E8700F5CA9C /* Project object */;
+}
